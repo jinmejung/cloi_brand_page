@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900|Nanum+Gothic:400,700,800|Noto+Sans+KR:100,300,400,500,700,900');
+
+/* reset */
+body,div,p,ul,ol,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,table,tr,th,td,form,fieldset,legend,input,label,textarea,select,button {margin:0; padding:0;}
+body,h1,h2,h3,h4,h5,h6 {font-size:12px;}
+a {text-decoration:none; color:#333;}
+img,fieldset {border:none;}
+ul,ol,li {list-style:none;}
+strong,em,address {font-style:normal; font-weight:normal;}
+table {border-collapse:collapse;} 
+
+
+.design-wrap {
+	width:100%;
+	height:100%;
+	font-family: 'Catamaran', 'Noto Sans KR', 'nanumgothic', sans-serif;
+}
+.section-wrap {
+	width:100%;
+	overflow: hidden;
+	position: relative;
+	margin:100px 0;
+}
+.sub-wrap {
+	width:70%;
+	margin:0 auto;
+}
+.main-visual {
+	background: url(../img/cloi_main.jpg) no-repeat;
+	background-size:cover;
+	height:730px;
+	position:relative;
+}
+.main-visual>div {
+	position:absolute;
+	width:50vw;
+	right:0;
+	top:50%;
+	transform: translateY(-50%);
+}
+.main-visual>div>div {
+	width:450px;
+	margin:0 auto;
+}
+.main-visual>div>div>img {
+	width:100%;
+}
+.main-visual>div>p {
+	font-size:15px;
+	line-height:1.5;
+	font-family: nanumgothic;
+	margin-top:20px;
+	text-align:center;
+}
+.contents-box {
+	width:100%;
+	overflow: hidden;
+	position: relative;
+	margin-top:30px;
+	height:60vh;
+}
+.contents-box>div {
+	float: left;
+	box-sizing:border-box;
+}
+.text-box {
+	position:absolute;
+	width:40%;
+	max-width:456px;
+	top:50%;
+	transform: translateY(-50%);
+    color:#666;
+}
+.text-box .number {
+	font-size:60px;
+	line-height:1;
+	color:#BFC1C0;
+	font-weight:200;
+}
+.text-box h2 {
+	font-size:48px;
+	font-weight:700;
+	letter-spacing: -1.5px;
+	text-transform: uppercase;
+}
+.text-box p {
+	font-size:18px;
+	border-top:1px solid #aaa;
+	padding-top:21px;
+	margin-top:20px;
+	font-weight:300;
+}
+.text-box p span {
+	font-size:19px;
+	font-weight:700;
+	text-transform: uppercase;
+}
+.text-box a {
+	display:block;
+	background-color:#555;
+	font-size:18px;
+	text-transform: uppercase;
+	color:#fff;
+	text-align:center;
+	width:200px;
+	padding:10px 0;
+	margin-top:50px;
+}
+.contents-box>.image-box {
+	width:54%;
+	float: right;
+}
+.contents-box>.image-box>img {
+	width:100%;
+}
+.cloi_logo {
+	text-align:center;
+	margin:118px 0 85px;
+}
+.product-wrap {
+	margin-top:20px;
+	width:90%;
+	margin:0 auto;
+}
+.swiper-container {
+	width:80%;
+	height:100%;
+}
+.swiper-slide {
+	text-align:center;
+	font-size:18px;
+	height:300px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display:flex;
+	-webkit-box-pack:center;
+	-ms-flex-pack:center;
+	-webkit-justify-content:center;
+	justify-content:center;
+	-webkit-box-align:center;
+	-ms-flex-align:center;
+	-webkit-align-items:center;
+	align-items:center;
+}
+
+.swiper-slide  a{
+    width:100%;
+    display: block;
+}
+.swiper-slide  a img{
+    width:100%;
+}
+.full-contents-box {
+	margin-top:0;
+	height:55vh;
+}
+.full-contents-box > .text-wrap {
+	width:60vw;
+	background:#ddd;
+	z-index: -1;
+	max-width:60vw;
+	height:100%;
+	position:relative;
+}
+.full-contents-box > .text-box {
+	left:16%;
+	transform: translate(0, -50%);
+}
+.full-contents-box > .image-box {
+	position:absolute;
+	right:0;
+	top:24px;
+	height:50vh;
+	overflow: hidden;
+}
+.full-contents-box-right > .text-wrap {
+	float:right;
+}
+.full-contents-box-right > .image-box {
+	left:0;
+}
+.full-contents-box-right > .text-box {
+	right:15%;
+	left: inherit;
+}
+.ester .contents-box .text-box h2 {
+	color:#F1ADA7;
+}
+.ester .contents-box .text-box a {
+	background-color:#F1ADA7;
+}
+.ester .contents-box .image-box {
+	margin-right:6px;
+}
+.lune .contents-box .text-box h2 {
+	color:#B4A294;
+}
+.lune .contents-box .text-box a {
+	background-color:#B4A294;
+}
+.lune .product-wrap, .charmant .product-wrap {
+	margin-top:40px;
+}
+.etoile .contents-box .text-box h2 {
+	color:#EFD6B8;
+}
+.etoile .contents-box .text-box a {
+	background-color:#EFD6B8;
+}
+.etoile .contents-box .image-box > img {
+	width:77%;
+	float:right;
+}
+.charmant .contents-box .text-box h2 {
+	color:#AFA67B;
+}
+.charmant .contents-box .text-box a {
+	background-color:#AFA67B;
+}
+.flor .contents-box .text-box h2 {
+	color:#CF8E94;
+}
+.flor .contents-box .text-box a {
+	background-color:#CF8E94;
+}
+.flor .contents-box {
+	height:65vh;
+	background: url('../img/cloi_banner_05.jpg') no-repeat center center;
+	background-size:cover;
+	margin-top:0;
+}
+.flor .contents-box .text-box {
+	background-color:#fff;
+	padding:20px 30px;
+	left:13%;
+	top:auto;
+	bottom:0;
+	transform: none;
+}
+.rolling_box {
+	display:block;
+}
+.rolling_box img {
+	width:200px;
+	margin:0 auto;
+	display:block;
+	height:200px;
+}
+.rolling_box span {
+	display:block;
+	clear:both;
+	line-height:19px;
+	font-size:13px;
+	text-align:center;
+	text-overflow:ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+}
+.rolling_boxspan a {
+	color:#666;
+}
+.rolling_box a:hover {
+	text-decoration:none;
+	opacity:0.8;
+	transition:0.4s ease;
+}
+.rolling_box span.menu {
+}
+.rolling_box span.name {
+	text-overflow:ellipsis;
+	overflow:hidden;
+	white-space:nowrap
+}
+@media screen and (min-width:1351px) and (max-width:1580px) {
+.full-contents-box-right > .text-box {
+	right:8%;
+}
+.full-contents-box > .image-box {
+	top:65px;
+}
+.ester .text-box, .etoile .text-box {
+	top:35%;
+}
+}
+@media screen and (max-width:1350px) {
+.full-contents-box-right > .text-box {
+	right:5%;
+}
+.full-contents-box > .image-box {
+	top:110px;
+}
+.ester .text-box, .etoile .text-box {
+	top:35%;
+}
+.contents-box {
+	overflow: inherit;
+}
+}
